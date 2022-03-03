@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+}
+
+.header {
+  height: 10vh;
+  display: flex;
+}
+
+.main {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer {
+  font-size: 14px;
+  height: 10vh;
+}
+
+.header_left {
+  display: flex;
+  width: 50vw;
+}
+
+.header_right {
+  display: flex;
+  width: 50vw;
+  background-color: rgb(255, 255, 255);
+  justify-content: flex-end;
+}
+
+.footer_top {
+  background-color: whitesmoke;
+  height: 5vh;
+  border-bottom: 1px solid rgb(145, 145, 145);
+}
+
+.footer_bot {
+  background-color: whitesmoke;
+  display: flex;
+  height: 5vh;
+}
+
+.footer_left {
+  display: flex;
+  width: 30vw;
+  
+}
+
+.margin_left{
+  margin-left: 10px;
+}
+
+.margin_right{
+  margin-right: 10px;
+}
+
+.footer_mid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40vw;
+}
+
+.footer_right {
+  display: flex;
+  width: 30vw;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: right;
+}
+
+a {
+  display: inline-block;
+  padding: 5px;
+  margin: 15px 5px;
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.firstOne {
+  margin-left: 15px;
+}
+
+.iconos{
+  display: flex;
+}
+
+.icono_opciones{
+  margin-top: 10px;
+  height: auto;
+  width: 3vw;
+  background-color: rgb(255, 255, 255);
+  background-image: url(../imagenes/opciones.png);
+  background-repeat: no-repeat;
+}
+
+.icono_perfil{
+  margin-top: 5px;
+  height: auto;
+  width: 5vw;
+  background-color: rgb(255, 255, 255);
+  background-image: url(../imagenes/icono_perfil.JPG);
+  background-repeat: no-repeat;
+}
+
+.logo_google{
+  margin-top: 35px;
+  height: 130px;
+  width: 310px;
+  background-color: rgb(255, 255, 255);
+  background-image: url(../imagenes/logo_google.JPG);
+  background-repeat: no-repeat;
+}
+
+.buscador{
+  height: 80px;
+  width: 600px;
+  background-color: rgb(255, 255, 255);
+  background-image: url(../imagenes/buscador.JPG);
+  background-repeat: no-repeat;
+}
+
+.botones{
+  margin: 10px;
+  width: 150px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: whitesmoke;
+  border: none;
+}
+
+.botones:hover{
+  background-color: rgba(245, 245, 245, 0.89);
+}
+
+.idioma{
+  color: rgb(24, 62, 185);
+}
